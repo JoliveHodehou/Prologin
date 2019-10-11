@@ -1,0 +1,75 @@
+<html>
+        <head>
+              <link rel="stylesheet" href="bootstrap.css">
+              <script src="//cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.1/processing-api.min.js"></script>
+              <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+              <script type="text/javascript" src="index.js"></script>
+              <title>Prologin</title>
+        </head>
+        <body>
+                  <div class="container">
+                        <div class="row">
+                          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                            <div class="card card-signin my-5">
+                              <div class="card-body">
+                                <h5 class="card-title text-center">Inscription</h5>
+                                <div class="form-row">
+                                  <div class="form-group col-md-6">
+                                    <input type="text" name="prenomid" id="prenomid" class="form-control" placeholder="Prenom">
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                    <input type="text" name="nameid" id="nameid" class="form-control" placeholder="Nom">
+                                  </div>
+                                </div>
+                                <div class="form-row">
+                                  <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                      <select id="sexeid" class="form-control">
+                                        <option value="Masculin" selected="selected">Masculin</option>
+                                        <option value="Feminin">Feminin</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                    <select id="niveauid" class="form-control">
+                                      <option value="Licence" selected="selected">Licence</option>
+                                      <option value="Master">Master</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="form-row">
+                                  <div class="form-group col-md-6">
+                                    <input type="text" name="paysid" id="paysid" class="form-control" placeholder="Pays">
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                    <input type="text" name="villeid" id="villeid" class="form-control" placeholder="Ville">
+                                  </div>
+                                </div>
+                                <div class="form-row">
+                                  <div class="form-group col-md-6">
+                                    <input type="number" name="ageid" id="ageid" class="form-control" placeholder="Age">
+                                  </div>
+                                  <div class="form-group col-md-6">
+                                    <input type="text" name="universiteid" id="universiteid" class="form-control" placeholder="Universite">
+                                  </div>
+                                </div>
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text" id="">Date De Naissance </span>
+                                  </div>
+                                  <input type="date" name="naissanceid" id="naissanceid" class="form-control" placeholder="Naissance">
+                                </div>
+                                <br>
+                                <button id="DownloadButton" class="btn btn-lg btn-primary btn-block text-uppercase">Inscrivez - Vous</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="generated" style="display:none">
+                      <h6>Inscription Validé :  <a href="#" id="DownloadLink">Générer le fichier xml</a></h6>
+                      <textarea hidden id="ResultXml" class="form-control" rows="15" readonly="readonly"></textarea>
+                    </div>
+          </body>
+</html>
