@@ -39,4 +39,4 @@ Le fichier XML téléchargé ressemble à ceci
  
  Le contenue du fichier ressemble à ceci
  
-  ![fichier lisible ](/img/.png)
+  ![fichier lisible ](/img/9.png)
