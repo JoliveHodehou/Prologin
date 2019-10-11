@@ -1,7 +1,7 @@
 # Prologin
 # Prérequis
 Installer python :
-        https://fr.wikihow.com›installer-Python
+        https://fr.wikihow.com/installer-Python
 # Formulaire
 Ouvrir le fichier index.html se trouvant dans le répertoire formulaire dans un navigateur et remplir le formulaire d'inscription
 
